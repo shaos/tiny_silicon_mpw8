@@ -1,11 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1671246853
+timestamp 1671335991
 << obsli1 >>
 rect 1104 2159 28888 31569
 << obsm1 >>
-rect 566 2128 29048 31600
+rect 566 2128 29334 31600
 << metal2 >>
 rect 570 33200 626 34000
 rect 1674 33200 1730 34000
@@ -60,8 +60,8 @@ rect 23866 33144 24802 33200
 rect 24970 33144 25906 33200
 rect 26074 33144 27010 33200
 rect 27178 33144 28114 33200
-rect 28282 33144 29042 33200
-rect 572 2139 29042 33144
+rect 28282 33144 29218 33200
+rect 572 2139 29328 33144
 << metal3 >>
 rect 29200 31832 30000 31952
 rect 29200 31152 30000 31272
@@ -581,8 +581,8 @@ port 116 nsew ground bidirectional
 string FIXED_BBOX 0 0 30000 34000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 502686
-string GDS_FILE /home/runner/work/tiny_user_project/tiny_user_project/openlane/tiny_user_project/runs/22_12_17_03_12/results/signoff/tiny_user_project.magic.gds
-string GDS_START 23768
+string GDS_END 712922
+string GDS_FILE /home/runner/work/tiny_silicon_mpw8/tiny_silicon_mpw8/openlane/tiny_user_project/runs/22_12_18_03_58/results/signoff/tiny_user_project.magic.gds
+string GDS_START 81014
 << end >>
 
