@@ -1,0 +1,76 @@
+2022-12-29 05:45:42 - [INFO] - {{Project Git Info}} Repository: https://github.com/shaos/tiny_silicon_mpw8.git | Branch: main | Commit: e751360ef7bcaa042d6ac770b88c02c3247bdc84
+2022-12-29 05:45:42 - [INFO] - {{EXTRACTING FILES}} Extracting compressed files in: testasynctrimux-mpw8
+2022-12-29 05:45:43 - [INFO] - {{Project Type Info}} digital
+2022-12-29 05:45:43 - [INFO] - {{Project GDS Info}} user_project_wrapper: cb1bac488525d2fa58c1f19e32bf0cfc31342993
+2022-12-29 05:45:43 - [INFO] - {{Tools Info}} KLayout: v0.27.12 | Magic: v8.3.340
+2022-12-29 05:45:43 - [INFO] - {{PDKs Info}} SKY130A: f70d8ca46961ff92719d8870a18a076370b85f6c | Open PDKs: 0059588eebfc704681dc2368bd1d33d96281d10f
+2022-12-29 05:45:43 - [INFO] - {{START}} Precheck Started, the full log 'precheck.log' will be located in 'testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/logs'
+2022-12-29 05:45:43 - [INFO] - {{PRECHECK SEQUENCE}} Precheck will run the following checks: [License, Makefile, Default, Documentation, Consistency, GPIO-Defines, XOR, Magic DRC, Klayout FEOL, Klayout BEOL, Klayout Offgrid, Klayout Metal Minimum Clear Area Density, Klayout Pin Label Purposes Overlapping Drawing, Klayout ZeroArea]
+2022-12-29 05:45:43 - [INFO] - {{STEP UPDATE}} Executing Check 1 of 14: License
+2022-12-29 05:45:44 - [INFO] - An approved LICENSE (Apache-2.0) was found in testasynctrimux-mpw8.
+2022-12-29 05:45:44 - [INFO] - {{MAIN LICENSE CHECK PASSED}} An approved LICENSE was found in project root.
+2022-12-29 05:45:45 - [INFO] - An approved LICENSE (Apache-2.0) was found in testasynctrimux-mpw8.
+2022-12-29 05:45:45 - [INFO] - {{SUBMODULES LICENSE CHECK PASSED}} No prohibited LICENSE file(s) was found in project submodules
+2022-12-29 05:45:45 - [WARNING] - {{SPDX COMPLIANCE CHECK FAILED}} Found 32 non-compliant file(s) with the SPDX Standard.
+2022-12-29 05:45:45 - [INFO] - SPDX COMPLIANCE: NON-COMPLIANT FILE(S) PREVIEW: ['testasynctrimux-mpw8/configure.py', 'testasynctrimux-mpw8/openlane/tiny_user_project/config.json', 'testasynctrimux-mpw8/openlane/user_project_wrapper/config.json', 'testasynctrimux-mpw8/sdc/tiny_user_project.sdc', 'testasynctrimux-mpw8/sdc/user_module.sdc', 'testasynctrimux-mpw8/sdc/user_project_wrapper.sdc', 'testasynctrimux-mpw8/sdf/tiny_user_project.sdf', 'testasynctrimux-mpw8/sdf/user_module.sdf', 'testasynctrimux-mpw8/sdf/user_project_wrapper.sdf', 'testasynctrimux-mpw8/sdf/multicorner/max/user_project_wrapper.ff.sdf', 'testasynctrimux-mpw8/sdf/multicorner/max/user_project_wrapper.ss.sdf', 'testasynctrimux-mpw8/sdf/multicorner/max/user_project_wrapper.tt.sdf', 'testasynctrimux-mpw8/sdf/multicorner/min/user_project_wrapper.ff.sdf', 'testasynctrimux-mpw8/sdf/multicorner/min/user_project_wrapper.ss.sdf', 'testasynctrimux-mpw8/sdf/multicorner/min/user_project_wrapper.tt.sdf']
+2022-12-29 05:45:45 - [INFO] - For the full SPDX compliance report check: testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/logs/spdx_compliance_report.log
+2022-12-29 05:45:45 - [INFO] - {{STEP UPDATE}} Executing Check 2 of 14: Makefile
+2022-12-29 05:45:45 - [INFO] - {{MAKEFILE CHECK PASSED}} Makefile valid.
+2022-12-29 05:45:45 - [INFO] - {{STEP UPDATE}} Executing Check 3 of 14: Default
+2022-12-29 05:45:45 - [INFO] - {{README DEFAULT CHECK PASSED}} Project 'README.md' was modified and is not identical to the default 'README.md'
+2022-12-29 05:45:45 - [INFO] - {{CONTENT DEFAULT CHECK PASSED}} Project 'gds' was modified and is not identical to the default 'gds'
+2022-12-29 05:45:45 - [INFO] - {{STEP UPDATE}} Executing Check 4 of 14: Documentation
+2022-12-29 05:45:45 - [INFO] - {{DOCUMENTATION CHECK PASSED}} Project documentation is appropriate.
+2022-12-29 05:45:45 - [INFO] - {{STEP UPDATE}} Executing Check 5 of 14: Consistency
+2022-12-29 05:45:49 - [INFO] - POWER CONNECTIONS CHECK PASSED: All instances in caravel are connected to power
+2022-12-29 05:45:49 - [INFO] - {{NETLIST CONSISTENCY CHECK PASSED}} caravel netlist passed all consistency checks.
+2022-12-29 05:45:49 - [INFO] - PORTS CHECK PASSED: Netlist user_project_wrapper ports match the golden wrapper ports
+2022-12-29 05:45:49 - [INFO] - COMPLEXITY CHECK PASSED: Netlist user_project_wrapper contains at least 1 instances (1 instances). 
+2022-12-29 05:45:49 - [INFO] - MODELING CHECK PASSED: Netlist user_project_wrapper is structural.
+2022-12-29 05:45:49 - [INFO] - LAYOUT CHECK PASSED: The GDS layout for user_project_wrapper matches the provided structural netlist.
+2022-12-29 05:45:49 - [INFO] - POWER CONNECTIONS CHECK PASSED: All instances in user_project_wrapper are connected to power
+2022-12-29 05:45:49 - [INFO] - PORT TYPES CHECK PASSED: Netlist user_project_wrapper port types match the golden wrapper port types.
+2022-12-29 05:45:49 - [INFO] - {{NETLIST CONSISTENCY CHECK PASSED}} user_project_wrapper netlist passed all consistency checks.
+2022-12-29 05:45:49 - [INFO] - {{CONSISTENCY CHECK PASSED}} The user netlist and the top netlist are valid.
+2022-12-29 05:45:49 - [INFO] - {{STEP UPDATE}} Executing Check 6 of 14: GPIO-Defines
+2022-12-29 05:45:49 - [INFO] - GPIO-DEFINES: Checking verilog/rtl/user_defines.v, parsing files: ['/opt/checks/gpio_defines_check/verilog_assets/gpio_modes_base.v', 'testasynctrimux-mpw8/verilog/rtl/user_defines.v', '/opt/checks/gpio_defines_check/verilog_assets/gpio_modes_observe.v']
+2022-12-29 05:45:51 - [INFO] - GPIO-DEFINES report path: testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/outputs/reports/gpio_defines.report
+2022-12-29 05:45:51 - [INFO] - {{GPIO-DEFINES CHECK PASSED}} The user verilog/rtl/user_defines.v is valid.
+2022-12-29 05:45:51 - [INFO] - {{STEP UPDATE}} Executing Check 7 of 14: XOR
+2022-12-29 05:45:54 - [INFO] - {{XOR CHECK UPDATE}} Total XOR differences: 0, for more details view testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/outputs/user_project_wrapper.xor.gds
+2022-12-29 05:45:54 - [INFO] - {{XOR CHECK PASSED}} The GDS file has no XOR violations.
+2022-12-29 05:45:54 - [INFO] - {{STEP UPDATE}} Executing Check 8 of 14: Magic DRC
+2022-12-29 05:45:54 - [INFO] - 0 DRC violations
+2022-12-29 05:45:54 - [INFO] - {{MAGIC DRC CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2022-12-29 05:45:54 - [INFO] - {{STEP UPDATE}} Executing Check 9 of 14: Klayout FEOL
+2022-12-29 05:45:54 - [INFO] - in CUSTOM klayout_gds_drc_check
+2022-12-29 05:45:54 - [INFO] - run: klayout -b -r /opt/checks/tech-files/sky130A_mr.drc -rd input=testasynctrimux-mpw8/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/outputs/reports/klayout_feol_check.xml -rd feol=true >& testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/logs/klayout_feol_check.log
+2022-12-29 05:45:57 - [INFO] - No DRC Violations found
+2022-12-29 05:45:57 - [INFO] - {{Klayout FEOL CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2022-12-29 05:45:57 - [INFO] - {{STEP UPDATE}} Executing Check 10 of 14: Klayout BEOL
+2022-12-29 05:45:57 - [INFO] - in CUSTOM klayout_gds_drc_check
+2022-12-29 05:45:57 - [INFO] - run: klayout -b -r /opt/checks/tech-files/sky130A_mr.drc -rd input=testasynctrimux-mpw8/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/outputs/reports/klayout_beol_check.xml -rd beol=true >& testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/logs/klayout_beol_check.log
+2022-12-29 05:46:05 - [INFO] - No DRC Violations found
+2022-12-29 05:46:05 - [INFO] - {{Klayout BEOL CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2022-12-29 05:46:05 - [INFO] - {{STEP UPDATE}} Executing Check 11 of 14: Klayout Offgrid
+2022-12-29 05:46:05 - [INFO] - in CUSTOM klayout_gds_drc_check
+2022-12-29 05:46:05 - [INFO] - run: klayout -b -r /opt/checks/tech-files/sky130A_mr.drc -rd input=testasynctrimux-mpw8/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/outputs/reports/klayout_offgrid_check.xml -rd offgrid=true >& testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/logs/klayout_offgrid_check.log
+2022-12-29 05:46:09 - [INFO] - No DRC Violations found
+2022-12-29 05:46:09 - [INFO] - {{Klayout Offgrid CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2022-12-29 05:46:09 - [INFO] - {{STEP UPDATE}} Executing Check 12 of 14: Klayout Metal Minimum Clear Area Density
+2022-12-29 05:46:09 - [INFO] - in CUSTOM klayout_gds_drc_check
+2022-12-29 05:46:09 - [INFO] - run: klayout -b -r /opt/checks/drc_checks/klayout/met_min_ca_density.lydrc -rd input=testasynctrimux-mpw8/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/outputs/reports/klayout_met_min_ca_density_check.xml >& testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/logs/klayout_met_min_ca_density_check.log
+2022-12-29 05:46:10 - [INFO] - No DRC Violations found
+2022-12-29 05:46:10 - [INFO] - {{Klayout Metal Minimum Clear Area Density CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2022-12-29 05:46:10 - [INFO] - {{STEP UPDATE}} Executing Check 13 of 14: Klayout Pin Label Purposes Overlapping Drawing
+2022-12-29 05:46:10 - [INFO] - in CUSTOM klayout_gds_drc_check
+2022-12-29 05:46:10 - [INFO] - run: klayout -b -r /opt/checks/drc_checks/klayout/pin_label_purposes_overlapping_drawing.rb.drc -rd input=testasynctrimux-mpw8/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/outputs/reports/klayout_pin_label_purposes_overlapping_drawing_check.xml -rd top_cell_name=user_project_wrapper >& testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/logs/klayout_pin_label_purposes_overlapping_drawing_check.log
+2022-12-29 05:46:12 - [INFO] - No DRC Violations found
+2022-12-29 05:46:12 - [INFO] - {{Klayout Pin Label Purposes Overlapping Drawing CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2022-12-29 05:46:12 - [INFO] - {{STEP UPDATE}} Executing Check 14 of 14: Klayout ZeroArea
+2022-12-29 05:46:12 - [INFO] - in CUSTOM klayout_gds_drc_check
+2022-12-29 05:46:12 - [INFO] - run: klayout -b -r /opt/checks/drc_checks/klayout/zeroarea.rb.drc -rd input=testasynctrimux-mpw8/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/outputs/reports/klayout_zeroarea_check.xml -rd cleaned_output=testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/outputs/user_project_wrapper_no_zero_areas.gds >& testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/logs/klayout_zeroarea_check.log
+2022-12-29 05:46:13 - [INFO] - No DRC Violations found
+2022-12-29 05:46:13 - [INFO] - {{Klayout ZeroArea CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2022-12-29 05:46:13 - [INFO] - {{FINISH}} Executing Finished, the full log 'precheck.log' can be found in 'testasynctrimux-mpw8/jobs/mpw_precheck/5565ebcf-2596-4d3d-8fd5-ca883cce2220/logs'
+2022-12-29 05:46:13 - [INFO] - {{SUCCESS}} All Checks Passed !!!
